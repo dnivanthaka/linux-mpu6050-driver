@@ -1,0 +1,5 @@
+*.c~
+*.swp
+*.o
+*.ko
+resources/
