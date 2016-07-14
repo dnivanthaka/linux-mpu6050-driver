@@ -29,10 +29,12 @@ static int mpu6050_i2c_detect(struct i2c_client *client,
 static int mpu6050_i2c_probe(struct i2c_client *client, 
         const struct i2c_device_id *id){
 
+    dev_info(&client->dev, "Probe MPU6050\n");
     return 0;
 }
 
 static int mpu6050_i2c_remove(struct i2c_client *client){
+    dev_info(&client->dev, "Remove MPU6050\n");
     return 0;
 }
 
