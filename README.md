@@ -1,5 +1,5 @@
 # linux-mpu6050-driver
-Linux MPU6050 Driver **Work in Progress**
+Linux MPU6050 Driver
 ====================
 
 Im writing this driver to learn about driver programming for linux. Im using a raspberry pi as the development platform. This driver may not be complete. At present it detects the presence of MPU6050. I have connected the sensor to i2c bus and it shows up in address 0x68.
